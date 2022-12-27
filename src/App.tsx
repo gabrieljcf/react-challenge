@@ -50,7 +50,7 @@ function App() {
 
     const itensIndex = list.length - 1;
     const itemToAdd = list[itensIndex];
-    setToAdd((prev: any) => [...prev, itemToAdd]);
+    setToAdd((prev) => [...prev, itemToAdd]);
 
     const newRemoveItens = list.slice(0, -1);
     setToRemove([...newRemoveItens]);
